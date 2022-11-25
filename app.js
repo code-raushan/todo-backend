@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const connect = require('./config/db')
-const userRoute = require('./Routes/userRoutes');
+const userRoute = require('./routes/userRoutes');
 
 //middlewares
 app.use(express.json())
